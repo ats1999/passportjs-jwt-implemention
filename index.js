@@ -25,8 +25,8 @@ app.use('/api/admin/job',require('./routes/admin/create-job'));
 app.use('/api/admin/view',require('./routes/admin/view-workers'));
 app.use('/api/worker/job',require('./routes/worker/view-jobs'));
 
-app.listen(process.env.port || 3000,()=>{
-    console.log(`Server is running on ${process.env.port || 3000}`)
+app.listen(process.env.PORT || 3000,()=>{
+    console.log(`Server is running on ${process.env.PORT || 3000}`)
 });
 
 module.exports=app;
