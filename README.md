@@ -131,3 +131,16 @@ Postman-Token: ce15af8e-9ff0-d1f6-b2fc-d6e63c783ca8
     }
 ]
 ```
+
+
+## Install
+```
+clone the repo and go to the directory 
+//...
+npm i
+npm start
+```
+## Test
+```js
+npm test
+```
